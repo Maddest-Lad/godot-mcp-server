@@ -1,0 +1,12 @@
+# Generated index files - rebuild with: uv run python scripts/index_docs.py
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+
+# uv
+.python-version

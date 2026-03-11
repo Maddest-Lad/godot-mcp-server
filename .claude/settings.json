@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git submodule update*)",
+      "Bash(git -C godot-docs pull*)",
+      "Bash(git -C godot-docs fetch*)",
+      "Bash(git -C godot-docs checkout*)",
+      "Bash(git -C godot-docs log*)",
+      "Bash(git -C godot-docs branch*)",
+      "Bash(git -C godot-docs status*)",
+      "Bash(git branch -r*)",
+      "Bash(uv run python scripts/index_docs.py*)",
+      "Bash(uv sync*)",
+      "Bash(uv add*)"
+    ],
+    "deny": [
+      "Bash(git push*)",
+      "Bash(rm -rf data/*)"
+    ]
+  }
+}
