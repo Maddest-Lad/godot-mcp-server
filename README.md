@@ -1,6 +1,6 @@
 # godot-mcp
 
-Offline MCP server for Godot 4 documentation. Provides structured lookup, full-text search, semantic search, and knowledge graph tools — no external API calls.
+Offline MCP server for Godot documentation. Provides structured lookup, full-text search, semantic search, and knowledge graph tools, all running locally.
 
 ## Setup
 
@@ -28,7 +28,7 @@ Add to your Claude Code / MCP client config:
     "godot-docs": {
       "command": "uv",
       "args": ["run", "-m", "src.godot_docs.server"],
-      "cwd": "C:/Users/sam/Desktop/Projects/godot-mcp"
+      "cwd": "PATH/TO/PROJECT/godot-mcp"
     }
   }
 }
