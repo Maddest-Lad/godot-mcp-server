@@ -1,9 +1,0 @@
-{
-  "mcpServers": {
-    "godot-docs": {
-      "command": "uv",
-      "args": ["run", "-m", "src.godot_docs.server"],
-      "cwd": "C:/Users/sam/Desktop/Projects/godot-mcp"
-    }
-  }
-}
